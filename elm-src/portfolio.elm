@@ -38,7 +38,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
   div []
-    [ img [src = ]
+    [ img [src "humanblack.png", width 140 , alt "太郎" , class "icon"][]
     , h1 [ ] [ text "山田太郎" ]
     , p [] [ text  "ui/uxデザイナー見習いです" ]
     ]
